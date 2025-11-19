@@ -10,19 +10,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8128668236925612103, guid: f830fe8673617d041bf6f5e985ed7e03, type: 3}
       propertyPath: m_Name
-      value: sw_seahorse
+      value: sw_seahorse_pf
       objectReference: {fileID: 0}
     - target: {fileID: 8897093224900880590, guid: f830fe8673617d041bf6f5e985ed7e03, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.28
+      value: 0.06
       objectReference: {fileID: 0}
     - target: {fileID: 8897093224900880590, guid: f830fe8673617d041bf6f5e985ed7e03, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.28
+      value: 0.06
       objectReference: {fileID: 0}
     - target: {fileID: 8897093224900880590, guid: f830fe8673617d041bf6f5e985ed7e03, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.28
+      value: 0.06
       objectReference: {fileID: 0}
     - target: {fileID: 8897093224900880590, guid: f830fe8673617d041bf6f5e985ed7e03, type: 3}
       propertyPath: m_LocalPosition.x
