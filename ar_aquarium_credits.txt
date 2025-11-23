@@ -1,0 +1,9 @@
+Licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+
+Organism photographs by us taken at Ripley's Aquarium Toronto, Ripley's Aquarium Canada official website, and the public domain.
+
+Organism 3D models and animations by SketchFab users "ffish.asia / floraZia.com", "kenchoo", "DigitalLife3D", "n-", "Gummibar gumy bear", "Turtle_Flipper", "Major", "Auckland Museum", "Keith Morgan", "1231shark", and "Truhvanor".
+
+Made in Unity using ARKit and AR Foundation.
+
+2025 - Made for GBC Interaction Design.
