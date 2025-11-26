@@ -1,29 +1,44 @@
 using UnityEngine;
+using System.Threading.Tasks; // Required for Task
 
 public class movement_fast : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public void Start()
     {
-        
+        doTask();
     }
 
     // Update is called once per frame
-    void Update()
+    async void doTask()
     {
         float xRotation = transform.eulerAngles.x;
         if (Mathf.Approximately(transform.eulerAngles.x, 0f))
         {
-            transform.Translate(Random.Range(-0.04f, 0.04f), Random.Range(-0.04f, 0.04f), Random.Range(-0.04f, 0.04f), Space.World);
-            transform.Rotate(0, Random.Range(-20f, 20f), 0);
-            return;
+            float xOr = Random.Range(-0.03f, 0.03f);
+            float yOr = Random.Range(-0.005f, 0.005f);
+            float zOr = Random.Range(-0.03f, 0.03f);
+            for (int i = 0; i < Random.Range(10,100); i++)
+            {
+                transform.Translate(xOr, yOr, zOr, Space.World);
+                transform.Rotate(0, Random.Range(-20, 20f), 0);
+                await Task.Delay(50);
+            }
+            doTask();
         }
 
         else
         {
-            transform.Translate(Random.Range(-0.02f, 0.02f), Random.Range(-0.02f, 0.02f), Random.Range(-0.01f, 0.01f), Space.World);
-            transform.Rotate(0, Random.Range(-10f, 10f), 0);
-            return;
+            float xOr = Random.Range(-0.005f, 0.005f);
+            float yOr = Random.Range(-0.03f, 0.03f);
+            float zOr = Random.Range(-0.03f, 0.03f);
+            for (int i = 0; i < Random.Range(10,100); i++)
+            {
+                transform.Translate(xOr, yOr, zOr, Space.World);
+                transform.Rotate(0, Random.Range(-20, 20f), 0);
+                await Task.Delay(50);
+            }
+            doTask();
         }
     }
 }
