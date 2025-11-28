@@ -10,7 +10,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -6689036041284674117, guid: b0a64d9ea2003ef4b9a7cc6e58d4325b, type: 3}
       propertyPath: m_Name
-      value: sw_seanettle
+      value: sw_seanettle_pf
       objectReference: {fileID: 0}
     - target: {fileID: 2774220344278030320, guid: b0a64d9ea2003ef4b9a7cc6e58d4325b, type: 3}
       propertyPath: m_LocalScale.x
@@ -75,6 +75,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -6689036041284674117, guid: b0a64d9ea2003ef4b9a7cc6e58d4325b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 4209159530807906549}
+    - targetCorrespondingSourceObject: {fileID: -6689036041284674117, guid: b0a64d9ea2003ef4b9a7cc6e58d4325b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -4349904174129595178}
   m_SourcePrefab: {fileID: -5645937942226959685, guid: b0a64d9ea2003ef4b9a7cc6e58d4325b, type: 3}
 --- !u!1 &3213399355766615416 stripped
 GameObject:
@@ -91,5 +94,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 217c5e3e0d4099341a13d4cec0509361, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-4349904174129595178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3213399355766615416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69ff0155f600c2f4c8ed277620028614, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
